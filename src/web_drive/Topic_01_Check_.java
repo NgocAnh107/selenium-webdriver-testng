@@ -23,14 +23,14 @@ public class Topic_01_Check_{
 		driver.get("https://www.facebook.com/");
 	}
 
-	@Test
+	//@Test
 	public void TC_01_ValidateCurrentUrl() {
 		// Login Page Url matching
 		String loginPageUrl = driver.getCurrentUrl();
 		Assert.assertEquals(loginPageUrl, "https://www.facebook.com/");
 	}
 
-	@Test
+	//@Test
 	public void TC_02_ValidatePageTitle() {
 		// Login Page title
 		String loginPageTitle = driver.getTitle();
